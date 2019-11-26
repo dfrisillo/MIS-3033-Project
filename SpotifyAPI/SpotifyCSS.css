@@ -1,0 +1,53 @@
+.container{
+    position:relative;
+    left: 500px;
+    
+}
+
+
+
+
+.container3 {
+    position:relative;
+    width: 15%;
+    left:1435px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container3:hover .overlay{
+    width:100%;
+}
+
+
+body{
+    background-color: dimgray;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rosybrown;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
